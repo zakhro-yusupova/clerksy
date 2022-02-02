@@ -1,0 +1,100 @@
+.production{
+  background-color: $main-darkgreen-color;
+  color: $main-white-color;
+  padding: 66px 0 120px;
+}
+
+
+.production__title{
+  font-family:$main-font-family;
+  font-style: normal;
+  font-weight:$main-font-weight ;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 0;
+  margin-bottom: 74px;
+  text-align: center;
+}
+
+.production__list{
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+}
+
+.production__item{
+  width: 295px;
+  height: 254px;
+  padding-top:167px ;
+}
+.production__item:nth-child(1){
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../images/inform.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -10px;
+    left: 80px;
+    width: 117px;
+    height: 145px;
+    position: absolute;
+
+  }
+}
+
+
+.production__item:nth-child(2){
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../images/protect.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -10px;
+    left: 110px;
+    width: 79px;
+    height: 160px;
+    position: absolute;
+
+  }
+}
+
+.production__item:nth-child(3){
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../images/manage-documents.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -10px;
+    left: 110px;
+    width: 66px;
+    height: 145px;
+    position: absolute;
+
+  }
+}
+
+.production__item:nth-child(4){
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../images/environment.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -10px;
+    left: 100px;
+    width: 95px;
+    height: 150px;
+    position: absolute;
+
+  }
+}
+.production__text{
+  text-align: center;
+}

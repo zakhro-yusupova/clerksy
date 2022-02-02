@@ -1,0 +1,83 @@
+.sign-up{
+  background-color: $main-bg-color;
+  color: $main-darkgreen-color;
+  padding:60px 0 ;
+}
+
+.sign-up__inner{
+  display: flex;
+  align-items: center;
+}
+
+.sign-up__info{
+  width: 590px;
+  // margin-right: 248px;
+}
+
+.sign-up__title{
+  font-family:$main-font-family;
+  font-style: normal;
+  font-weight: $main-font-weight;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.discovery__text{
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.sign-up__form{
+  position: relative;
+}
+
+.sign-up__input{
+  width: 553px;
+  background: #FFFFFF;
+  border: 1px solid $main-bg-color;
+  box-sizing: border-box;
+  border-radius: 255px;
+  position: relative;
+  padding: 18px 25px;
+}
+
+.sign-up__input:focus{
+  outline: transparent;
+}
+
+.sign-up__button{
+  width: 111px;
+  border: transparent;
+  line-height: 22px;
+  color: $main-white-color;
+  background-color: $main-button-color;
+  text-decoration: none;
+  border-radius: 160px;
+  padding: 16px 25px;
+  position: absolute;
+  left: 500px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+.sign-up__subtext-box{
+  width: 524px;
+  margin-top: 11px;
+}
+
+.sign-up__subtext{
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.sign-up__subtext-color{
+  color: #198C36;
+}

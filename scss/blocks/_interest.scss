@@ -1,0 +1,137 @@
+.interest{
+  color: $main-darkgreen-color;
+  padding-bottom: 120px;
+}
+
+.interest__title{
+  font-family:$main-font-family;
+  font-style: normal;
+  font-weight: $main-font-weight;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 0;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.interest__text{
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.interest__list{
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.interest__item{
+  width: 353px;
+  background-color: $main-white-color;
+  box-shadow: 5px 5px 20px #E9E4D5;
+  border-radius: 15px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+  .interest__item:nth-child(1){
+ position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../images/company-protect.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 50px;
+    left: 40px;
+    width: 62px;
+    height: 75px;
+    position: absolute;
+
+  }
+}
+
+.interest__item:nth-child(2){
+  position: relative;
+
+   &::before{
+     content: "";
+     background-image: url("../../images/success.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     top: 50px;
+     left: 40px;
+     width: 83px;
+     height: 75px;
+     position: absolute;
+
+   }
+ }
+
+ .interest__item:nth-child(3){
+  position: relative;
+
+   &::before{
+     content: "";
+     background-image: url("../../images/landscape.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     top: 50px;
+     left: 40px;
+     width: 82px;
+     height: 75px;
+     position: absolute;
+
+   }
+ }
+
+.interest__item + .interest__item{
+  margin-left: 40px;
+}
+
+.interest__subtitle{
+  font-family:$main-font-family;
+  font-style: normal;
+  font-weight: $main-font-weight;
+  font-size: 28px;
+  line-height: 31px;
+  padding: 145px 50px 23px 40px ;
+}
+
+.last-title{
+  padding-right: 0;
+}
+
+.interest__sublist{
+  list-style-type: none;
+}
+
+.interest__subitem{
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+
+  &::before{
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #163A24;
+    border: 1px solid #163A24;
+    border-radius:50px ;
+    position: absolute;
+    top: 7px;
+    left:0;
+  }
+}
+
+.last-item{
+  margin-bottom: 50px;
+}

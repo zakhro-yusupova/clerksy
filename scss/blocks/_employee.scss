@@ -1,0 +1,29 @@
+.employee{
+  background-color: $main-bg-color;
+  color: $main-darkgreen-color;
+  padding: 135px 0 140px;
+}
+
+.employee__inner{
+  text-align: center;
+}
+
+.employee__info{
+  width: 760px;
+  margin: 0 auto;
+}
+
+.employee__title{
+  font-family:$main-font-family;
+font-style: normal;
+font-weight:$main-font-weight;
+font-size: 48px;
+line-height: 54px;
+margin: 0;
+margin-bottom:27px ;
+}
+
+.employee__text{
+  font-size: 18px;
+line-height: 27px;
+}
